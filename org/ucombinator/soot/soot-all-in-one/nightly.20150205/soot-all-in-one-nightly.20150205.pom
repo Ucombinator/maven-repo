@@ -5,5 +5,4 @@
   <groupId>org.ucombinator.soot</groupId>
   <artifactId>soot-all-in-one</artifactId>
   <version>nightly.20150205</version>
-  <description>POM was created from install:install-file</description>
 </project>
