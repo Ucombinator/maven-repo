@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ucombinator.soot</groupId>
+  <artifactId>soot-all-in-one</artifactId>
+  <versioning>
+    <release>nightly.20150205</release>
+    <versions>
+      <version>nightly.20150205</version>
+    </versions>
+    <lastUpdated>20150205211411</lastUpdated>
+  </versioning>
+</metadata>
