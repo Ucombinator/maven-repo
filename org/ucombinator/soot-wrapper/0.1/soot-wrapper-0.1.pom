@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.ucombinator</groupId>
+    <artifactId>soot-wrapper</artifactId>
+    <packaging>jar</packaging>
+    <description>soot-wrapper</description>
+    <version>0.1</version>
+    <name>soot-wrapper</name>
+    <organization>
+        <name>org.ucombinator</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.ucombinator.soot</groupId>
+            <artifactId>soot-all-in-one</artifactId>
+            <version>nightly.20150205</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+            <version>1.3.9</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>Ucombinatormavenrepositoryongithub</id>
+            <name>Ucombinator maven repository on github</name>
+            <url>https://ucombinator.github.io/maven-repo/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
