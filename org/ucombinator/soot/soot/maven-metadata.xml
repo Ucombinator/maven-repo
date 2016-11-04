@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ucombinator.soot</groupId>
+  <artifactId>soot</artifactId>
+  <versioning>
+    <release>nightly.20161021</release>
+    <versions>
+      <version>nightly.20161021</version>
+    </versions>
+    <lastUpdated>20161021154500</lastUpdated>
+  </versioning>
+</metadata>
