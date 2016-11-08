@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ucombinator.heros</groupId>
+  <artifactId>heros</artifactId>
+  <versioning>
+    <release>nightly.20161021</release>
+    <versions>
+      <version>nightly.20161021</version>
+    </versions>
+    <lastUpdated>20161021004300</lastUpdated>
+  </versioning>
+</metadata>
