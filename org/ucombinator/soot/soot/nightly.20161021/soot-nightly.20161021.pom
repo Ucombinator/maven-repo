@@ -5,4 +5,27 @@
   <groupId>org.ucombinator.soot</groupId>
   <artifactId>soot</artifactId>
   <version>nightly.20161021</version>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.ow2.asm</groupId>
+      <artifactId>asm-commons</artifactId>
+      <version>5.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.ucombinator.heros</groupId>
+      <artifactId>heros</artifactId>
+      <version>nightly.20161021</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.21</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>20.0</version>
+    </dependency>
+  </dependencies>
 </project>
