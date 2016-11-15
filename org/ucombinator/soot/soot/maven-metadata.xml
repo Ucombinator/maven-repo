@@ -9,4 +9,12 @@
     </versions>
     <lastUpdated>20161021154500</lastUpdated>
   </versioning>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.ow2.asm</groupId>
+      <artifactId>asm-tree</artifactId>
+      <version>5.1</version>
+    </dependency>
+  </dependencies>
 </metadata>
