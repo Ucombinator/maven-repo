@@ -6,6 +6,39 @@
   <artifactId>soot</artifactId>
   <version>nightly.20161021</version>
 
+  <repositories>
+    <repository>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+        <checksumPolicy>fail</checksumPolicy>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+        <checksumPolicy>fail</checksumPolicy>
+      </snapshots>
+      <id>central</id>
+      <name>Central Maven Repository</name>
+      <url>http://central.maven.org/maven2/</url>
+    </repository>
+    <repository>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+        <checksumPolicy>fail</checksumPolicy>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+        <checksumPolicy>fail</checksumPolicy>
+      </snapshots>
+      <id>ucombinator</id>
+      <name>Ucombinator Maven Repository</name>
+      <url>https://ucombinator.github.io/maven-repo/</url>
+    </repository>
+  </repositories>
+
   <dependencies>
     <dependency>
       <groupId>org.ow2.asm</groupId>
