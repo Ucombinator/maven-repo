@@ -16,7 +16,13 @@ libraryDependencies ++= Seq(
 
 ## Deploying 3rd party jars
 
-Maven is the best option for this.
+First, build the project with:
+
+```
+mvn package
+```
+
+Then add the Jar to the maven repository:
 
 ```
 mvn deploy:deploy-file \
@@ -28,6 +34,11 @@ mvn deploy:deploy-file \
     -Durl="file://</your/path/to/checkout>" \
     -DrepositoryId=org.ucombinator
 ```
+
+`-Durl` is the path to a checkout of the maven repository.
+
+`-Dfile` will be a path to the Jar in the `target` sub-directory of wherever you built the project.
+
 
 ## Deploying sbt projects
 
